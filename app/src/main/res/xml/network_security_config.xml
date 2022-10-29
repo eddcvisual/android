@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <base-config cleartextTrafficPermitted="true" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">http://192.168.1.5/PG/validar_usuario.php</domain>
+        <domain includeSubdomains="true">https://proyectodesarrollosql.com/Android/mostrar_productos.php</domain>
+        <domain includeSubdomains="true">https://proyectodesarrollosql.com/Android/registrar_venta.php</domain>
+    </domain-config>
+
+</network-security-config>
